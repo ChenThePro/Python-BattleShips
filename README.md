@@ -114,8 +114,6 @@ Enter your port, your friend’s port, and their IP to connect.
 Custom end-game screens with unique images and sounds.  
 ![Victory](Screenshots/9.png)
 
-```
-
 ---
 
 ## 🔍 Code Overview
