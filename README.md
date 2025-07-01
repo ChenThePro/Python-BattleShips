@@ -129,26 +129,26 @@ A few screenshots to showcase the game’s interface and features:
 
 ### 🏠 Home Screen
 Main window where players choose between Singleplayer or Multiplayer modes.  
-![Home Screen](Screenshots/1.png)
+![Home Screen](assets/screenshots/home.png)
 
 ---
 
 ### 🎯 Singleplayer and Multiplayer Mode  
 User and AI/opponent boards displayed side-by-side for interactive battles.  
-![Single Player](Screenshots/8.png)
+![Single Player](assets/screenshots/game.png)
 
 ---
 
 ### 🌐 Multiplayer Setup  
 Enter your port, your friend’s port, and their IP to connect.  
-![Multiplayer Setup](Screenshots/3.png)
+![Multiplayer Setup](assets/screenshots/setup.png)
 
 ---
 
 ### 🏁 Victory/Defeat  
 Custom end-game screens with unique images and sounds.  
-![Victory](Screenshots/9.png)
-![Victory](Screenshots/10.png)
+![Victory](assets/screenshots/victory.png)
+![Victory](assets/screenshots/defeat.png)
 
 ---
 
