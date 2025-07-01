@@ -87,7 +87,7 @@ python main.py
 ```
 ---
 
-▶️ Usage
+## ▶️ Usage
 After launching the game with:
 
 bash
