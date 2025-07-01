@@ -9,17 +9,17 @@ import threading
 import json
 LETTERS = "ABCDEFGHIJ"
 NUMBERS = "123456789"
-PICTURES = ["Images/Background/chen.jpg", "Images/Background/chen3.jpg", "Images/Background/chen4.jpg", "Images/Background/chen5.jpg", "Images/Background/chen6.jpg", "Images/Background/chen7.jpg", "Images/Background/chen8.jpg", "Images/Background/chen9.jpg",
-            "Images/Background/chen10.jpg", "Images/Background/chen11.jpg", "Images/Background/chen12.jpg", "Images/Background/chen13.jpg", "Images/Background/chen14.jpg", "Images/Background/chen15.jpg", "Images/Background/chen16.jpg", "Images/Background/chen17.jpg",
-            "Images/Background/chen18.jpg", "Images/Background/chen19.jpg", "Images/Background/chen20.jpg", "Images/Background/chen21.jpg", "Images/Background/chen22.jpg", "Images/Background/chen23.jpg", "Images/Background/chen24.jpg",
-            "Images/Background/chen25.jpg", "Images/Background/chen26.jpg", "Images/Background/chen27.jpg", "Images/Background/chen28.jpg", "Images/Background/chen29.jpg", "Images/Background/chen30.jpg"]
-SOUNDS = ["Sounds/Background Sounds/chen1.mp3", "Sounds/Background Sounds/chen31.mp3", "Sounds/Background Sounds/chen32.mp3", "Sounds/Background Sounds/chen33.mp3", "Sounds/Background Sounds/chen34.mp3", "Sounds/Background Sounds/chen35.mp3", "Sounds/Background Sounds/chen36.mp3", "Sounds/Background Sounds/chen37.mp3",
-          "Sounds/Background Sounds/chen38.mp3", "Sounds/Background Sounds/chen39.mp3", "Sounds/Background Sounds/chen40.mp3", "Sounds/Background Sounds/chen41.mp3", "Sounds/Background Sounds/chen42.mp3"]
-VICTORY = ["Sounds/Victory Sounds/chen43.mp3", "Sounds/Victory Sounds/chen44.mp3", "Sounds/Victory Sounds/chen45.mp3", "Sounds/Victory Sounds/chen46.mp3", "Sounds/Victory Sounds/chen47.mp3", "Sounds/Victory Sounds/chen48.mp3", "Sounds/Victory Sounds/chen49.mp3"]
-DEFEAT = ["Sounds/Defeat Sounds/chen50.mp3", "Sounds/Defeat Sounds/chen51.mp3", "Sounds/Defeat Sounds/chen52.mp3", "Sounds/Defeat Sounds/chen53.mp3", "Sounds/Defeat Sounds/chen54.mp3"]
-DEFEAT_IMAGE = ["Images/Defeat Images/chen55.jpg", "Images/Defeat Images/chen56.jpg", "Images/Defeat Images/chen57.jpg", "Images/Defeat Images/chen58.jpg"]
-VICTORY_IMAGE = ["Images/Victory Images/chen59.jpg", "Images/Victory Images/chen60.jpg", "Images/Victory Images/chen61.jpg", "Images/Victory Images/chen62.jpg", "Images/Victory Images/chen63.jpg", "Images/Victory Images/chen64.jpg", "Images/Victory Images/chen65.jpg",
-                 "Images/Victory Images/chen66.jpg"]
+PICTURES = ["assets/images/Background/chen.jpg", "assets/images/Background/chen3.jpg", "assets/images/Background/chen4.jpg", "assets/images/Background/chen5.jpg", "assets/images/Background/chen6.jpg", "assets/images/Background/chen7.jpg", "assets/images/Background/chen8.jpg", "assets/images/Background/chen9.jpg",
+            "assets/images/Background/chen10.jpg", "assets/images/Background/chen11.jpg", "assets/images/Background/chen12.jpg", "assets/images/Background/chen13.jpg", "assets/images/Background/chen14.jpg", "assets/images/Background/chen15.jpg", "assets/images/Background/chen16.jpg", "assets/images/Background/chen17.jpg",
+            "assets/images/Background/chen18.jpg", "assets/images/Background/chen19.jpg", "assets/images/Background/chen20.jpg", "assets/images/Background/chen21.jpg", "assets/images/Background/chen22.jpg", "assets/images/Background/chen23.jpg", "assets/images/Background/chen24.jpg",
+            "assets/images/Background/chen25.jpg", "assets/images/Background/chen26.jpg", "assets/images/Background/chen27.jpg", "assets/images/Background/chen28.jpg", "assets/images/Background/chen29.jpg", "assets/images/Background/chen30.jpg"]
+SOUNDS = ["assets/sounds/Background Sounds/chen1.mp3", "assets/sounds/Background Sounds/chen31.mp3", "assets/sounds/Background Sounds/chen32.mp3", "assets/sounds/Background Sounds/chen33.mp3", "assets/sounds/Background Sounds/chen34.mp3", "assets/sounds/Background Sounds/chen35.mp3", "assets/sounds/Background Sounds/chen36.mp3", "assets/sounds/Background Sounds/chen37.mp3",
+          "assets/sounds/Background Sounds/chen38.mp3", "assets/sounds/Background Sounds/chen39.mp3", "assets/sounds/Background Sounds/chen40.mp3", "assets/sounds/Background Sounds/chen41.mp3", "assets/sounds/Background Sounds/chen42.mp3"]
+VICTORY = ["assets/sounds/Victory Sounds/chen43.mp3", "assets/sounds/Victory Sounds/chen44.mp3", "assets/sounds/Victory Sounds/chen45.mp3", "assets/sounds/Victory Sounds/chen46.mp3", "assets/sounds/Victory Sounds/chen47.mp3", "assets/sounds/Victory Sounds/chen48.mp3", "assets/sounds/Victory Sounds/chen49.mp3"]
+DEFEAT = ["assets/sounds/Defeat Sounds/chen50.mp3", "assets/sounds/Defeat Sounds/chen51.mp3", "assets/sounds/Defeat Sounds/chen52.mp3", "assets/sounds/Defeat Sounds/chen53.mp3", "assets/sounds/Defeat Sounds/chen54.mp3"]
+DEFEAT_IMAGE = ["assets/images/Defeat Images/chen55.jpg", "assets/images/Defeat Images/chen56.jpg", "assets/images/Defeat Images/chen57.jpg", "assets/images/Defeat Images/chen58.jpg"]
+VICTORY_IMAGE = ["assets/images/Victory Images/chen59.jpg", "assets/images/Victory Images/chen60.jpg", "assets/images/Victory Images/chen61.jpg", "assets/images/Victory Images/chen62.jpg", "assets/images/Victory Images/chen63.jpg", "assets/images/Victory Images/chen64.jpg", "assets/images/Victory Images/chen65.jpg",
+                 "assets/images/Victory Images/chen66.jpg"]
 IP_PATTERN = r'^(\d{1,3}\.){3}\d{1,3}$'
 REC = 1024
 
