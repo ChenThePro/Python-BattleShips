@@ -148,6 +148,7 @@ Enter your port, your friend’s port, and their IP to connect.
 ### 🏁 Victory/Defeat  
 Custom end-game screens with unique images and sounds.  
 ![Victory](Screenshots/9.png)
+![Victory](Screenshots/10.png)
 
 ---
 
