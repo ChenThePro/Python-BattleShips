@@ -85,6 +85,47 @@
 # From the project root:
 python main.py
 ```
+---
+
+▶️ Usage
+After launching the game with:
+
+bash
+Copy
+Edit
+python main.py
+You will be presented with a Home Screen offering three main options:
+
+🎮 Singleplayer
+Click Singleplayer to play against an AI.
+
+Follow the prompts to place your ships.
+
+Enter coordinates (e.g., A1, J10) to attack the computer's board.
+
+🌐 Multiplayer
+Click Multiplayer to play against a friend.
+
+You will be prompted to enter:
+
+php-template
+Copy
+Edit
+<your_port>-<friend_port>-<friend_ip>
+For example:
+
+yaml
+Copy
+Edit
+7000-7001-127.0.0.1
+Make sure both players are on the same network or port-forwarded.
+
+Ships are placed in turns, and the game proceeds in real-time.
+
+🆘 Help
+Click Help to view instructions and gameplay rules.
+
+🔁 At any time, use the “Back to Home” button to return to the main menu.
 
 ---
 
