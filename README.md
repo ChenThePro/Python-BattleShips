@@ -12,7 +12,7 @@
 - [Technology Stack](#-technology-stack)
 - [Gameplay Modes](#-gameplay-modes)
 - [Installation](#-installation)
-- [Usage](#%EF%B8%8F-usage)
+- [Usage](#-usage)
 - [Examples](#%EF%B8%8F-examples)
 - [Code Overview](#-code-overview)
 - [Security Considerations](#-security-considerations)
@@ -85,47 +85,41 @@
 # From the project root:
 python main.py
 ```
+
 ---
 
 ## ▶️ Usage
+
 After launching the game with:
 
-bash
-Copy
-Edit
+```bash
 python main.py
-You will be presented with a Home Screen offering three main options:
+```
 
-🎮 Singleplayer
-Click Singleplayer to play against an AI.
+You will be presented with a **Home Screen** offering three main options:
 
-Follow the prompts to place your ships.
+### 🎮 Singleplayer
+- Click **Singleplayer** to play against an AI.
+- Follow the prompts to place your ships.
+- Enter coordinates (e.g., `A1`, `J10`) to attack the computer's board.
 
-Enter coordinates (e.g., A1, J10) to attack the computer's board.
+### 🌐 Multiplayer
+- Click **Multiplayer** to play against a friend.
+- You will be prompted to enter:
+  ```
+  <your_port>-<friend_port>-<friend_ip>
+  ```
+  For example:
+  ```
+  7000-7001-127.0.0.1
+  ```
+- Make sure both players are on the same network or port-forwarded.
+- Ships are placed in turns, and the game proceeds in real-time.
 
-🌐 Multiplayer
-Click Multiplayer to play against a friend.
+### 🆘 Help
+- Click **Help** to view instructions and gameplay rules.
 
-You will be prompted to enter:
-
-php-template
-Copy
-Edit
-<your_port>-<friend_port>-<friend_ip>
-For example:
-
-yaml
-Copy
-Edit
-7000-7001-127.0.0.1
-Make sure both players are on the same network or port-forwarded.
-
-Ships are placed in turns, and the game proceeds in real-time.
-
-🆘 Help
-Click Help to view instructions and gameplay rules.
-
-🔁 At any time, use the “Back to Home” button to return to the main menu.
+> 🔁 At any time, use the “Back to Home” button to return to the main menu.
 
 ---
 
