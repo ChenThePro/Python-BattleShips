@@ -13,7 +13,7 @@
 - [Gameplay Modes](#-gameplay-modes)
 - [Installation](#-installation)
 - [Usage](#%EF%B8%8F-usage)
-- [Examples](#%EF%B8%8F-examples)
+- [Visuals](#%EF%B8%8F-visuals)
 - [Code Overview](#-code-overview)
 - [Security Considerations](#-security-considerations)
 - [Troubleshooting](#-troubleshooting)
@@ -123,7 +123,7 @@ You will be presented with a **Home Screen** offering three main options:
 
 ---
 
-## 🖼️ Examples
+## 🖼️ Visuals
 
 A few screenshots to showcase the game’s interface and features:
 
