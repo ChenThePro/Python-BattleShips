@@ -7,18 +7,18 @@
 
 ## 🧭 Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Gameplay Modes](#gameplay-modes)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Code Overview](#code-overview)
-- [Security Considerations](#security-considerations)
-- [Troubleshooting](#troubleshooting)
-- [Contributors](#contributors)
-- [License](#license)
+- [Introduction](#-introduction)
+- [Features](#-features)
+- [Technology Stack](#-technology-stack)
+- [Gameplay Modes](#-gameplay-modes)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Examples](#-examples)
+- [Code Overview](#-code-overview)
+- [Security Considerations](#-security-considerations)
+- [Troubleshooting](#-troubleshooting)
+- [Contributors](#-contributors)
+- [License](#-license)
 
 ---
 
@@ -110,19 +110,10 @@ Enter your port, your friend’s port, and their IP to connect.
 
 ---
 
-### 💣 Multiplayer Game in Progress  
-Striking the enemy board with hit/miss feedback and real-time updates.  
-![Multiplayer Game](Screenshots/4.png)
-
----
-
 ### 🏁 Victory/Defeat  
 Custom end-game screens with unique images and sounds.  
 ![Victory](Screenshots/9.png)
 
-> 📂 _To add or update images, place them inside `assets/images/` and reference them in Markdown using:_  
-```markdown
-![Description](assets/images/your_image_name.png)
 ```
 
 ---
