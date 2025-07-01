@@ -133,8 +133,8 @@ Main window where players choose between Singleplayer or Multiplayer modes.
 
 ---
 
-### 🎯 Singleplayer Mode  
-User and AI boards displayed side-by-side for interactive battles.  
+### 🎯 Singleplayer and Multiplayer Mode  
+User and AI/opponent boards displayed side-by-side for interactive battles.  
 ![Single Player](Screenshots/8.png)
 
 ---
