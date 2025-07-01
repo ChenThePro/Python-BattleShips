@@ -12,7 +12,7 @@
 - [Technology Stack](#-technology-stack)
 - [Gameplay Modes](#-gameplay-modes)
 - [Installation](#-installation)
-- [Usage](#-usage)
+- [Usage](#%EF%B8%8F-usage)
 - [Examples](#%EF%B8%8F-examples)
 - [Code Overview](#-code-overview)
 - [Security Considerations](#-security-considerations)
