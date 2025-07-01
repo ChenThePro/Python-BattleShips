@@ -13,7 +13,7 @@
 - [Gameplay Modes](#-gameplay-modes)
 - [Installation](#-installation)
 - [Usage](#-usage)
-- [Examples](#-examples)
+- [Examples](#%EF%B8%8F-examples)
 - [Code Overview](#-code-overview)
 - [Security Considerations](#-security-considerations)
 - [Troubleshooting](#-troubleshooting)
