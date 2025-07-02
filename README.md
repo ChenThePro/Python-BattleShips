@@ -1,4 +1,3 @@
-
 # 🚢 Python-BattleShips
 
 > **A Classic Battleship Game — Online and Offline Multiplayer**
